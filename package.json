@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "http://wael-zoaiter.github.io/iedudash",
   "scripts": {
-    "deploy": "gh-pages -d build"
+    "deploy": "git add . && git commit -m \"new commit\" && git push && gh-pages -d build"
   },
   "keywords": [],
   "author": "",
